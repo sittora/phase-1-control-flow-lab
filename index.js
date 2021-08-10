@@ -9,12 +9,7 @@ function scuberGreetingForFeet(feet){
 }
 
 function ternaryCheckCity(city){
-  // Write your code here!
-  if (city = 'NYC') {
-    return ('Ok, sounds good.');
-  } else if (city !== 'NYC' && city == 'Pittsburgh') {
-    return ('No go.');
-  }
+  return ( city === 'NYC' ? 'Ok, sounds good.' : 'No go.');
 }
 
 function switchOnCharmFromTip(tip){
